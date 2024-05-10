@@ -18,8 +18,14 @@ const index = () => {
             <Link href='/details/3' asChild>
                 <Button title='Go To Details3' />
             </Link>
-            <Link href='/drawer' asChild replace>
+            <Link href='/drawer/profile' asChild replace>
                 <Button title='Open drawer' />
+            </Link>
+            <Link href='/(tabs)' asChild replace>
+                <Button title='Open screen with tabs' />
+            </Link>
+            <Link href='/modal' asChild push>
+                <Button title='Open modal' />
             </Link>
         </View>
     );
